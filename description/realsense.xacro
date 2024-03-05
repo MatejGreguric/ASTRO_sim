@@ -114,7 +114,7 @@
       <child link="camera_color_frame" />
     </joint>
     <link name="camera_color_frame"/>
-
+    <!-- Komentar -->
     <joint name="camera_color_optical_joint" type="fixed">
       <origin xyz="0 0 0" rpy="${-M_PI/2} 0 ${-M_PI/2}" />
       <parent link="camera_color_frame" />
